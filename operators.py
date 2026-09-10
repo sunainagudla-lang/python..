@@ -1,17 +1,41 @@
-#pass or fail checker 
-marks = int(input("Enter marks:"))
+#bitwise operators
+a = 7
+b = 2
 
-print("passed:",marks >= 40)
+print(a & b)
+print(a | b)
+print(a ^ b)
+print(a << b)
+print(a >> b)
 
-#login validation
-correct_username = "sunaina"
-correct_password = "2008"
+a = 15
+b = 3
+print(a & b)
+print(a | b)
+print(a ^ b)
+print(a << b)
+print(a >> b)
 
-username =input("Enter username: ")
-password = input("Enter password: ")
+a = 14
+b = 7
+print(a & b)
+print(a | b)
+print(a ^ b)
+print(a << b)
+print(a >> b)
 
-print(username == correct_username)
-print(password == correct_password)
+a = 17
+b = 5
+print(a & b)
+print(a | b)
+print(a ^ b)
+print(a << b)
+print(a >> b)
 
-
-
+a = 19
+b = 7
+print(a & b)
+print(a | b)
+print(a ^ b)
+print(a >> b)
+print(a << b)
